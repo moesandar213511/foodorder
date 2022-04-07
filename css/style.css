@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(252, 240, 219);
+}
+header{
+    height: 100px;
+    /* background-color: rgb(110, 167, 167); */
+    line-height: 100px;
+}
+.logo{
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 26px;
+    margin-left: 80px;
+    display: inline-block;
+}
+.logo a{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: inline-block;
+    margin-left: 23em;
+}
+.navbar ul{
+    /* margin-left: 40px; */
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;  
+    color: black;
+}
+.bag-icon{
+    margin-left: 10em;
+}
+.signin{
+    text-decoration: none; 
+    margin-left: 2em;
+    padding: 10px 27px;
+    background-color: rgb(255, 178, 85);
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.signin:hover{
+    background-color:rgb(252, 212, 143);
+    color: black;
+}
+.row1{
+    margin-top: 37px;
+    margin-left: 93px;
+    margin-bottom: 112px;
+}
+.banner{
+    display: inline-block;
+    width: 700px;
+    margin-top: 50px;
+}
+.bannerPhoto{
+    width: 360px;
+    border-radius: 50%;
+    height: 360px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 66px;
+    object-fit: cover;
+}
+.banner .title{
+    font-size: 48px;
+    font-weight: bolder;
+    height: 85px;
+}
+.ordernow{
+    text-decoration: none; 
+    padding: 10px 27px;
+    background-color: rgb(255, 178, 85);
+    color: white;
+    border-radius: 10px;
+    margin-top: 29px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.ordernow:hover{
+    background-color:rgb(252, 212, 143);
+    color: black;
+}
+.row2{
+    text-align: center;
+    margin-left: 58px;
+    margin-bottom: 90px;
+}
+.card{
+    background-color: white;
+    width: 19%;
+    height: 120px;
+    border-radius: 10px;                
+    margin-left: 26px;
+    display: inline-block;
+    margin-right: 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 178, 85);
+    margin-top: -48px;
+    margin-left: -72px;
+    margin-right: 20px;
+}
+.card-body{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    text-align: left;
+}
+.star{
+    width: 140px;
+}
+.star-icon{
+    font-size: 12px;
+    color: rgb(255, 178, 85);
+}
+.price{
+    margin-top: 10px;
+    display: inline-block;
+}
+.cart-icon{
+    /* font-size: 31px; */
+    color: rgb(255, 178, 85);
+    margin-left: 45px;
+}
+.service{
+    margin-left: 146px;
+    margin-bottom: 90px;
+}
+.service-icon{
+    color: rgb(255, 178, 85);
+}
+.service-title{
+    margin-left: 14.5em;
+    font-size: 30px;
+    font-weight: bold;
+}
+.service-card{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding: 40px 15px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 85px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.service-para{
+    margin-top: 40px;
+}
+.popular-recipes{
+    width: 100%;
+    height: 668px;
+    background-color: wheat;
+    padding-left: 120px;
+}
+.food-title{
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.popular-title{
+    display: inline-block;
+    font-size: 30px;
+}
+.form{
+    position: relative;
+    display: inline-block;
+    margin-left: 36em;
+}
+.search-icon{
+    position: absolute;
+    top: 11px;
+    left: 8px;
+
+}
+input[type="search"]{
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid gray;
+    background-color: antiquewhite;
+    padding-left: 27px;
+}
+.food-button{
+    display: inline-block;
+    padding-left: 20px;
+}
+.food-button .btn:hover{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: 0.5s;
+}
+.btn:first-child{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.btn{
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 44px;
+    font-size: 16px;
+    background-color: wheat;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.food-card{
+    display: inline-block;
+    margin-left: 123px;
+}
+.fcard{
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-bottom: 15px;
+    display: inline-block;
+    margin-right: 82px;
+}
+.fcard-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+.fcard h4{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.fcard p{
+    margin-bottom: 12px;
+}
+.fcard .food-para{
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.fcard .food-price{
+    margin-right: 99px;
+    display: inline-block;
+}
+.fcard .food-rating{
+    font-size: 12px;
+    display: inline-block;
+}
+.basket{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(255, 169, 63);
+    border-radius: 10px;
+    line-height: 2;
+    text-align: center;
+    margin: auto;
+}
+.basket{
+    color: white;
+}
+.viewall{
+    text-decoration: none; 
+    padding: 10px 27px;
+    background-color: rgb(255, 178, 85);
+    color: white;
+    border-radius: 10px;
+    margin-top: 35px;
+    display: inline-block;
+    margin-left: 31em;
+    transition: 0.5s;
+}
+.viewall:hover{
+    background-color:rgb(252, 212, 143);
+    color: black;
+}
+.review{
+    /* margin-bottom: 30px; */
+}
+.review-title{
+    width: 265px;
+    text-align: center;
+    margin: 80px auto;
+}
+.review-card{
+    width: 24%;
+    padding: 20px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 88px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.review-para{
+    margin: 20px 0px;
+}
+.people{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.people-about{
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px 16px;
+}
+.people-name{
+    font-weight: bold;
+}
+.position{
+    font-size: 14px;
+}
+.mobile{
+    width: 100%;
+    height: 650px;
+    background-color: wheat;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-left: 18em;
+}
+.mobile-img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 250px;
+    height: 500px;
+    border-radius: 30px;
+}
+.mobile-title{
+    font-size: 28px;
+    /* font-weight: 700px; */
+}
+.mobile-text{
+    width: 400px;
+    /* background-color: pink; */
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 77px;
+    line-height: 2;
+    margin-left: 140px;
+
+}
+.download-btn1,.download-btn2{
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin-top: 35px;
+    width: 165px;
+    height: 60px;
+}
+.download-btn2{
+    margin-left: 64px;
+}
+.download-btn2 img{
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.apple-icon{
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.download-text{
+    display: inline-block;
+}
+.download-text1{
+    font-size: 10px;
+}
+.download-text2{
+    font-size: 16px;
+}
+footer{
+    border: 1px solid pink;
+    height: 390px;
+    padding-left: 125px;
+    padding-top: 70px;
+}
+.newsletter{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    display: inline-block;
+}
+.news-text{
+    margin: 25px 0px;
+}
+.newsletter input[type="email"]{
+    padding: 6px 20px;
+    border: 1px solid gray;
+}
+.subscribe{
+    padding: 6px 10px;
+    margin-left: -5px;
+    background-color: rgb(255, 178, 85);
+    border: 1px solid gray; 
+}
+.footer-columns{
+    display: inline-block;
+    margin-left: 65px;
+}
+.ft-col{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 75px;
+    line-height: 2.3;
+}
+.copyright{
+    margin-top: 50px;
+    
+}
+.copyright p{
+    float: left;
+    color: gray;
+    font-size: 14px;
+}
+.cpy{
+    margin-left: 52em;
+}
